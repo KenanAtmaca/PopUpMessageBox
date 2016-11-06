@@ -12,7 +12,7 @@
          puBox.setup()
         
          puBox.addSendHandle(target: self, selector: #selector(sendMsg))
-         puBox.addcancelHandle(target: self, selector: #selector(cancelMsg))
+         puBox.addCancelHandle(target: self, selector: #selector(cancelMsg))
 ```
 
 TextView text
