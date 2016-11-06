@@ -15,12 +15,25 @@
          puBox.addcancelHandle(target: self, selector: #selector(cancelMsg))
 ```
 
+TextView text
+
+```Swift
+  func sendMsg() {
+        // Send Code
+        
+        print(puBox.msgText!)
+        
+    }
+```
+
 Cancel handle call remove function
 
 ```Swift
  func cancelMsg() {
         // Cancel Code
+        
         puBox.remove()
+        
     }
 ```
 
