@@ -238,7 +238,7 @@ class PopUpMessageBox:NSObject,UITextViewDelegate {
         
     }
     
-    func addcancelHandle(target:Any?,selector:Selector) {
+    func addCancelHandle(target:Any?,selector:Selector) {
         
         msgCancelButton.addTarget(target, action: selector, for: .touchUpInside)
         
